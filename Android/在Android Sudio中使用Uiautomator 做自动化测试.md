@@ -41,11 +41,11 @@ dependencies {
 ###具体使用
 #### 1.打开uiautomatorviewer工具得到如图
 
-![图1](http://raw.githubusercontent.com/YeeLL/Android-Note/master/image/uiautoview1.png)   
+![图1](https://raw.githubusercontent.com/YeeLL/Android-Note/master/image/uiautoview1.png)   
 
 这个就是我们要使用的神奇的工具，当我们连接上设备后，点击左上方第二个按钮就会得到如下图所示的内容：
 
-![图2](http://raw.githubusercontent.com/YeeLL/Android-Note/master/image/uiaotuview2.png)
+![图2](https://raw.githubusercontent.com/YeeLL/Android-Note/master/image/uiaotuview2.png)
 看到的内容分3块：   
 1.左边的界面显示区域。   
 2.右上方的布局显示区域。   
