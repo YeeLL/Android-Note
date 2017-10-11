@@ -41,18 +41,18 @@ dependencies {
 ###具体使用
 #### 1.打开uiautomatorviewer工具得到如图
 
-![图1](https://raw.githubusercontent.com/YeeLL/Android-Note/master/image/uiautoview1.png)   
+![图1](http://raw.githubusercontent.com/YeeLL/Android-Note/master/image/uiautoview1.png)   
 
 这个就是我们要使用的神奇的工具，当我们连接上设备后，点击左上方第二个按钮就会得到如下图所示的内容：
 
-![图2](https://raw.githubusercontent.com/YeeLL/Android-Note/master/image/uiaotuview2.png)
+![图2](http://raw.githubusercontent.com/YeeLL/Android-Note/master/image/uiaotuview2.png)
 看到的内容分3块：   
 1.左边的界面显示区域。   
 2.右上方的布局显示区域。   
 3.右下方的当前空间具体信息显示区域。    
 
 成功后 我们打开Android Studio找到自己的项目，在androidTest下创建自己的测试类继承TestCase就能开始编写自己的测试代码了。
-![图3](https://raw.githubusercontent.com/YeeLL/Android-Note/master/image/autoview3.png)
+![图3](http://raw.githubusercontent.com/YeeLL/Android-Note/master/image/autoview3.png)
 
 创建后创建自己的testA（这里我自己的叫这个）方法，然后通过以下的API 进行操作：    
 [UiCollection](https://developer.android.com/reference/android/support/test/uiautomator/UiCollection.html)：枚举容器的 UI 元素以便计算子元素个数，或者通过可见的文本或内容描述属性来指代子元素。   
@@ -105,5 +105,5 @@ public class UiTest extends TestCase {
 
 编写完成后可以直接点击如下图的地方直接运行测试用例：
 
-![图4](https://raw.githubusercontent.com/YeeLL/Android-Note/master/image/autoview4.png)
+![图4](http://raw.githubusercontent.com/YeeLL/Android-Note/master/image/autoview4.png)
 
